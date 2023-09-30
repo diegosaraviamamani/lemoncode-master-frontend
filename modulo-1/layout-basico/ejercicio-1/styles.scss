@@ -1,6 +1,12 @@
 // Variables
 $white: #fff;
 
+$text-colors: (
+  "primary": #00e6eb,
+  "secondary": #ff00f7,
+  "tertiary": #ffeb00,
+);
+
 $primary: (
   "darken-4": #b71c1c,
   "darken-3": #c62828,
@@ -41,12 +47,6 @@ $pallets: (
   "primary": $primary,
   "secondary": $secondary,
   "tertiary": $tertiary,
-);
-
-$text-colors: (
-  "primary": #00e6eb,
-  "secondary": #ff00f7,
-  "tertiary": #ffeb00,
 );
 
 // Styles
