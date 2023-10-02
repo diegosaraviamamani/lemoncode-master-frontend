@@ -1,0 +1,41 @@
+/* reset navbar styles */
+* {
+  font-family: sans-serif;
+}
+/* styles */
+.card {
+  border: 1px solid grey;
+  width: 100%;
+  max-width: 300px;
+  display: grid;
+}
+.card-image {
+  width: 100%;
+  background-color: #ccc;
+}
+.card-content {
+  padding: 1rem;
+}
+.card-title {
+  font-size: 1.5rem;
+}
+.card-description {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+.card-footer {
+  margin-top: 2rem;
+  text-align: right;
+}
+.card-footer span {
+  color: #64c02c;
+}
+.card-button {
+  background-color: #64c02c;
+  color: white;
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+  padding: 1rem;
+}
