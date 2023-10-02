@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  border: 1px solid gray;
+  height: 4.5rem;
+  width: 6rem;
+  padding: 0 0.75rem;
+}
+
+.bg-base {
+  background-color: var(--base-color);
+}
+.bg-important {
+  background-color: var(--important-color);
+}
+.bg-warning {
+  background-color: var(--warning-color);
+}
+
+.font-main {
+  font-family: var(--main-font);
+}
+.font-secondary {
+  font-family: var(--secondary-font);
+}
+
+.box-shadow {
+  box-shadow: var(--box-shadow);
+}

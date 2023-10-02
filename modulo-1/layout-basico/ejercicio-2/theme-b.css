@@ -1,0 +1,11 @@
+:root {
+  --base-color: #0000ff;
+  --important-color: #00006b;
+  --warning-color: #00ffff;
+
+  --main-font: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  --secondary-font: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+  --box-shadow: 0.5rem 0.5rem 0.5rem black;
+}
