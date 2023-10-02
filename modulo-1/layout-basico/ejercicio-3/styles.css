@@ -1,0 +1,45 @@
+/* reset navbar styles */
+* {
+  font-family: sans-serif;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* styles */
+.navbar {
+  background-color: #006c7d;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.navbar li {
+  display: flex;
+}
+.navbar a {
+  padding: 1rem;
+}
+.navbar a:hover {
+  background-color: #27495a;
+}
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+  }
+  .navbar a {
+    width: 100%;
+    text-align: center;
+  }
+}
